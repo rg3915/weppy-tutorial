@@ -71,10 +71,10 @@ db.define_models(Post, Comment)
 def setup_admin():
     # create the user
     user = User.create(
-        email="walter@massivedynamics.com",
-        first_name="Walter",
-        last_name="Bishop",
-        password="pocketuniverse"
+        email="regis@email.com",
+        first_name="Regis",
+        last_name="Santos",
+        password="demodemo"
     )
     # create an admin group
     admins = auth.create_group("admin")

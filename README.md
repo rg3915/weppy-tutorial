@@ -4,3 +4,30 @@
 
 Este tutorial é baseado no tutorial original [http://weppy.org/docs/1.1/tutorial](http://weppy.org/docs/1.1/tutorial).
 
+## Como rodar a aplicação
+
+### Rodando o Hello World
+
+```
+python hello.py
+```
+
+A aplicação roda local na porta 8000.
+
+### Rodando o Bloggy
+
+Primeiro faça a migração do banco
+
+```
+cd bloggy
+weppy -a bloggy.py migrations generate -m "First migration"
+weppy -a bloggy.py migrations up
+weppy --app bloggy.py setup
+```
+
+Rode a aplicação a partir da pasta `bloggy`.
+
+```
+weppy --app bloggy.py run
+```
+
