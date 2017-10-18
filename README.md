@@ -6,6 +6,14 @@ Este tutorial é baseado no tutorial original [http://weppy.org/docs/1.1/tutoria
 
 ## Como rodar a aplicação
 
+```
+git clone https://github.com/rg3915/weppy-tutorial.git
+cd weppy-tutorial
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+```
+
 ### Rodando o Hello World
 
 ```
